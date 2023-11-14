@@ -1,0 +1,140 @@
+PODS:
+  - FirebaseAnalytics (9.0.0):
+    - FirebaseAnalytics/AdIdSupport (= 9.0.0)
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (9.0.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleAppMeasurement (= 9.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseCore (9.2.0):
+    - FirebaseCoreDiagnostics (~> 9.0)
+    - FirebaseCoreInternal (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (9.2.0):
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCoreInternal (9.2.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - FirebaseInstallations (9.2.0):
+    - FirebaseCore (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (~> 2.1)
+  - Google-Mobile-Ads-SDK (9.4.0):
+    - GoogleAppMeasurement (< 10.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (9.0.0):
+    - GoogleAppMeasurement/AdIdSupport (= 9.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (9.0.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 9.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (9.0.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.4):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUserMessagingPlatform (2.0.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - PromisesObjC (2.1.0)
+  - Realm (10.25.2):
+    - Realm/Headers (= 10.25.2)
+  - Realm/Headers (10.25.2)
+  - RealmSwift (10.25.2):
+    - Realm (= 10.25.2)
+  - ToastUI (2.0.0)
+
+DEPENDENCIES:
+  - FirebaseAnalytics
+  - Google-Mobile-Ads-SDK
+  - RealmSwift
+  - ToastUI
+
+SPEC REPOS:
+  trunk:
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - Realm
+    - RealmSwift
+    - ToastUI
+
+SPEC CHECKSUMS:
+  FirebaseAnalytics: ea4f6f4b604a20b4de4d3c7f7a2cb51d9a989040
+  FirebaseCore: 0e27f2a15d8f7b7ef11e7d93e23b1cbab55d748c
+  FirebaseCoreDiagnostics: ad3f6c68b7c5b63b7cf15b0785d7137f05f32268
+  FirebaseCoreInternal: cb966328b6985dbd6f535e1461291063e1c4a00f
+  FirebaseInstallations: 21186f0ca7849f90f4a3219fa31a5eca2e30f113
+  Google-Mobile-Ads-SDK: 5a1d44987c82e441811ecaa5ae824e100ea819d7
+  GoogleAppMeasurement: 2c2792d43ebdea0524adbc90cba9139721f3039b
+  GoogleDataTransport: 5fffe35792f8b96ec8d6775f5eccd83c998d5a3b
+  GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  Realm: 978303663d0509166498f423d112e5ee97d4c91b
+  RealmSwift: a0c30c1efc49e928a0a6f8fb141bb2629616d79b
+  ToastUI: 391eb9a1cc15e7ef4b79ee112e4a0b969259154f
+
+PODFILE CHECKSUM: 69a63e229ce06146eab3fef0a9e26e95e75b7bfa
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,85 @@
+{
+  "identifier" : "EC0636FA",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "77EA6083",
+      "localizations" : [
+        {
+          "description" : "You can access all album contents of the app",
+          "displayName" : "Access All Albums",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "life.subs",
+      "referenceName" : "Access All Albums",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "56275361",
+      "localizations" : [
+
+      ],
+      "name" : "Software Services",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "77204F5C",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Subscribe for Unlocking special features!",
+              "displayName" : "Monthly Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "month.subs",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Plan",
+          "subscriptionGroupID" : "56275361",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "31EA4ECB",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "get premium content for a week!",
+              "displayName" : "7-day plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "week.subs",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "7-day plan",
+          "subscriptionGroupID" : "56275361",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}
