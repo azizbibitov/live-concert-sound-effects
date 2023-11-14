@@ -9,12 +9,6 @@ Live Concert and Amazing Sound Effects
 
 [![pdf-resized](https://github-production-user-asset-6210df.s3.amazonaws.com/98221949/282775881-6eb2c779-ec55-403a-bb63-c1bda73c9ff5.png)](https://azizbibitov.github.io/portfolio/documents/live-concert-sound-effects-desc.pdf) Project description
 
-
-
-[![app-store-logo-icon-resized-cornered](https://github-production-user-asset-6210df.s3.amazonaws.com/98221949/282773834-75d374eb-3aa6-4c1d-ad49-48ab4420901a.png)]()
-
-
-
 ## Screenshots
 
 ![image_original](https://github.com/azizbibitov/live-concert-sound-effects/assets/98221949/4cd2f8e0-4573-4d0e-a87f-ca9f52b7a97f)
